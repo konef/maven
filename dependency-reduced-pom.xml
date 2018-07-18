@@ -18,12 +18,21 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>hello.HelloWorld</mainClass>
+                  <mainClass>com.test.Project</mainClass>
                 </transformer>
               </transformers>
             </configuration>
           </execution>
         </executions>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>lib/</classpathPrefix>
+              <mainClass>com.test.Project</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
       </plugin>
     </plugins>
   </build>
