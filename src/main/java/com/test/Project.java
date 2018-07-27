@@ -11,11 +11,6 @@ class Project {
   
   public static void main(String[] args) {
     System.out.println("Hellow MTN");
-    
-    
-    hello maven
-      yuo willn`t work
-      ha ha ha
-  }
+    }
 
 }
